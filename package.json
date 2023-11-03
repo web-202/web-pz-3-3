@@ -1,19 +1,36 @@
 {
-  "name": "web-pz-3-3",
-  "version": "1.0.0",
-  "description": "> In this lesson students should create template for app with webpack module builder",
-  "main": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/292-group/web-pz-3-3.git"
-  },
-  "author": "Andrii Zadvornyi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/292-group/web-pz-3-3/issues"
-  },
-  "homepage": "https://github.com/292-group/web-pz-3-3#readme",
+    "name": "web-pz-3-3",
+    "version": "1.0.0",
+    "description": "> In this lesson students should create template for app with webpack module builder",
+    "main": "",
+    "author": "Oleksandr Zagorenko",
+    "license": "ISC",
+    "scripts": {
+        "start": "webpack serve --mode development",
+        "dev": "webpack --mode development",
+        "build": "webpack --config webpack.production.config.js --mode production"
+    },
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "ts-loader": "^9.5.0",
+        "html-webpack-plugin": "^5.5.3",
+        "mini-css-extract-plugin": "^2.7.6",
+        "terser-webpack-plugin": "^5.3.9",
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/292-group/web-pz-3-3.git"
+    },
+    "bugs": {
+        "url": "https://github.com/292-group/web-pz-3-3/issues"
+    },
+    "homepage": "https://github.com/292-group/web-pz-3-3#readme",
+    "dependencies": {
+        "sass": "^1.69.5"
+    }
 }

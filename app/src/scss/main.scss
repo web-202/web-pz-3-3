@@ -1,0 +1,22 @@
+$base-color: #491e1e;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: $base-color;
+}
+
+.title {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.title__img {
+    height: 50px;
+    width: 50px;
+}

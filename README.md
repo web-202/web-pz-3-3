@@ -4,8 +4,8 @@
 ### Acceptance criteria 
 * Create two different webpack configuration for production and development environment
 * Create two npm script for different environment
-* Instal and configure babel-loader, file-loader, html-loader, image-webpack-loader, sass-loader, to-string-loader, ts-loader, url-loader
-* Instal and configure MiniCssExtractPlugin, HtmlWebpackPlugin, webpack.DefinePlugin for dev config
+* Install and configure babel-loader, file-loader, html-loader, image-webpack-loader, sass-loader, to-string-loader, ts-loader, url-loader
+* Install and configure MiniCssExtractPlugin, HtmlWebpackPlugin, webpack.DefinePlugin for dev config
 * Install and configure TerserPlugin, HtmlWebpackPlugin, webpack.DefinePlugin for production config
 * Add minimize option for production config
 
