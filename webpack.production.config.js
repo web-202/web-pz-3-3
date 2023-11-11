@@ -9,13 +9,8 @@ module.exports = {
     entry: path.resolve(__dirname, "app", "src", "index.ts"),
     output: {
         filename: "static/js/main.[contenthash].js",
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
         assetModuleFilename: "static/media/[name].[contenthash][ext]",
-    },
-    performance: {
-        hints: false,
-        maxAssetSize: 500000,
-        maxEntrypointSize: 100000,
     },
     module: {
         rules: [

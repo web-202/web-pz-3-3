@@ -7,7 +7,6 @@
     "license": "ISC",
     "scripts": {
         "start": "webpack serve --mode development",
-        "dev": "webpack --mode development",
         "build": "webpack --config webpack.production.config.js --mode production"
     },
     "devDependencies": {
