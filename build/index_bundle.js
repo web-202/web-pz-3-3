@@ -1,0 +1,1 @@
+(()=>{"use strict";HASH="1000",ENV="some",console.log("test"+HASH+ENV)})();

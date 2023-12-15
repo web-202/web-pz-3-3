@@ -8,7 +8,7 @@ module.exports = {
   mode: 'production',
   entry: './app/index.ts',
   output: {
-    filename: 'bundle.[contenthash].js',
+    filename: 'index_bundle.js',
     path: path.resolve(__dirname, 'build'),
   },
   module: {
