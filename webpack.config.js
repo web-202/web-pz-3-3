@@ -37,6 +37,7 @@ module.exports = {
     new DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development'),
     }),
+    
   ],
   resolve: {
     extensions: ['.ts', '.js'],
@@ -47,5 +48,6 @@ module.exports = {
     },
     port: 8080,
     open: true,
+    hot: true, 
   },
 };
