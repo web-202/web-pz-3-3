@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const t=document.getElementById("button"),e=[{text:"update",color:"green"},{text:"delete",color:"red"},{text:"pending",color:"orange"}];let o=0;t.textContent=e[0].text,t.style.backgroundColor=e[0].color,t.addEventListener("click",(function(){o=(o+1)%e.length,t.textContent=e[o].text,t.style.backgroundColor=e[o].color}))}));
